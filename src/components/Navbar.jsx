@@ -54,11 +54,10 @@ export default function Navbar({ onHire, hireOpen = false, ready = false }) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-[9000] transition-all duration-500 ${
-        scrolled
-          ? 'border-b border-white/10 bg-black/50 py-2.5 backdrop-blur-xl'
-          : 'border-b border-transparent py-4 sm:py-6'
-      }`}
+      className={`fixed inset-x-0 top-0 z-[9000] transition-all duration-500 ${scrolled
+        ? 'border-b border-white/10 bg-black/50 py-2.5 backdrop-blur-xl'
+        : 'border-b border-transparent py-4 sm:py-6'
+        }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 sm:px-6 lg:px-10">
         <a
@@ -71,7 +70,7 @@ export default function Navbar({ onHire, hireOpen = false, ready = false }) {
               opening animation rather than just appearing. */}
           <span className="block overflow-hidden">
             <motion.img
-              src="/logo.png"
+              src="/portfolio/logo.png"
               alt="Harish Sai — Frontend Dev"
               width={1053}
               height={508}

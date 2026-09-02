@@ -116,7 +116,7 @@ export default function Hero({ ready = false, onHire }) {
       <video
         ref={videoRef}
         className={`absolute inset-0 size-full object-cover object-[68%_26%] transition-opacity duration-500 sm:object-[62%_38%] lg:object-center ${revealed ? 'opacity-100' : 'opacity-0'}`}
-        src="/hero.mp4"
+        src="/portfolio/hero.mp4"
         playsInline
         preload="auto"
       />
