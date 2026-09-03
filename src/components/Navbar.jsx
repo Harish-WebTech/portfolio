@@ -70,7 +70,7 @@ export default function Navbar({ onHire, hireOpen = false, ready = false }) {
               opening animation rather than just appearing. */}
           <span className="block overflow-hidden">
             <motion.img
-              src="/portfolio/logo.png"
+              src="./logo.png"
               alt="Harish Sai — Frontend Dev"
               width={1053}
               height={508}
