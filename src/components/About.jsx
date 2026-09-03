@@ -103,7 +103,7 @@ export default function About() {
                 </div>
               ) : (
                 <img
-                  src="/portfolio/profile.jpg"
+                  src="./profile.jpg"
                   alt="Harish Sai"
                   onError={() => setPhotoFailed(true)}
                   className="size-full object-cover"
@@ -173,7 +173,7 @@ export default function About() {
               </div>
             ) : (
               <img
-                src="/portfolio/profile.jpg"
+                src="./profile.jpg"
                 alt="Harish Sai"
                 onError={() => setPhotoFailed(true)}
                 className="aspect-[4/5] w-full rounded-2xl bg-neutral-700 object-cover"
